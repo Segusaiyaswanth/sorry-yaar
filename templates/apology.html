@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Sorry ❤️</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/apology.css') }}">
+</head>
+<body>
 
+    <!-- PAGE 1: WELCOME -->
+    <section id="welcomePage" class="page active">
+        <div class="welcome-art">
+            <div class="glowing-star">✨</div>
+            <div class="illustrated-girl">👧🏻</div>
+        </div>
+
+        <h1>Will you accept my sorry?</h1>
+
+        <div class="button-group">
+            <button id="yesBtn">Yes ❤️</button>
+            <button id="noBtn">No 🙈</button>
+        </div>
+    </section>
+
+
+    <!-- PAGE 2: MESSAGE IN A BOTTLE -->
+    <section id="bottlePage" class="page">
+
+        <div class="bottle-scene" id="bottleScene">
+
+            <div class="bottle-star">✨</div>
+
+            <div class="message-bottle" id="messageBottle">
+
+                <div class="bottle-cork" id="bottleCork"></div>
+
+                <div class="bottle-neck"></div>
+
+                <div class="bottle-glass">
+                    <div class="bottle-shine"></div>
+                    <div class="bottle-water"></div>
+                </div>
+
+                <div class="bottle-note" id="bottleNote">
+                    💌
+                </div>
+
+            </div>
+
+            <div class="paper-airplane" id="paperPlane">
+                📨
+            </div>
+
+        </div>
+
+        <h2 id="bottleCaption">
+            A little message is waiting for you...
+        </h2>
+
+        <button id="bottleBtn">Open the bottle 💌</button>
+
+    </section>
+
+
+    <!-- PAGE 3: APOLOGY LETTER -->
+    <section id="letterPage" class="page">
+
+        <div class="letter">
+
+            <div class="letter-decoration">✦　❀　✦</div>
+
+            <h1>Appy ❤️</h1>
+
+            <p>
+                I am really sorry, nana. Because of my overthinking,
+                I hurt you so much. I know I am going through some
+                low days, but I shouldn't have let that affect you.
+            </p>
+
+            <p>
+                I am sorry for being a little possessive, ma.
+                Sometimes I think too much and react without
+                understanding the situation properly. I know not
+                everything I think is true, but at that moment I
+                let my thoughts take control of me.
+            </p>
+
+            <p>
+                I never wanted to hurt you, but I know I did.
+                You are really special to me, Appy, and I don't
+                want my overthinking or silly mistakes to make
+                things difficult between us.
+            </p>
+
+            <p>
+                Please don't take my care in the wrong way because
+                of the way I expressed it. I know I made mistakes,
+                and I genuinely feel sorry for them.
+            </p>
+
+            <p>
+                <strong>Once again, I am really sorry, Appy. ❤️</strong>
+            </p>
+
+
+            <!-- ANIMATED ENDING -->
+            <div class="sorry-ending">
+
+                <div class="crying-face" aria-hidden="true">
+
+                    <span class="face-eye left"></span>
+                    <span class="face-eye right"></span>
+
+                    <span class="face-mouth"></span>
+
+                    <span class="tear tear-left"></span>
+                    <span class="tear tear-right"></span>
+
+                </div>
+
+                <div class="accept-question">
+                    Will you accept my sorry?
+                </div>
+
+                <div class="ending-heart">❤️</div>
+
+            </div>
+
+            <div class="letter-decoration bottom-decoration">
+                ✦　❀　✦
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="{{ url_for('static', filename='js/apology.js') }}"></script>
+
+</body>
+</html>
